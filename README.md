@@ -13,7 +13,7 @@ LessonNet automatically generates structured knowledge notes from classroom vide
 ## Key Features
 
 - **Four-layer pipeline**: preprocessing → multimodal perception → integration (FusionNet) → LLM output
-- **Video Perceptor**: SAM2.1 target segmentation + MediaPipe pose (arm raise, etc.) + DeepFace emotion arousal + PP-OCR blackboard recognition
+- **Visual Perceptor**: SAM2.1 target segmentation + MediaPipe pose (arm raise, etc.) + DeepFace emotion arousal + PP-OCR blackboard recognition
 - **Audio Perceptor**: Whisper speech transcription + OpenSMILE eGeMAPS acoustic emotion + Librosa emphasis-region detection
 - **FusionNet**: time-window alignment + positional encoding + temporal cross-attention (center window as query, context as keys/values) for importance scoring, with a dynamic mean-plus-standard-deviation threshold for highlight selection
 - **Lightweight processing**: region-wise local inference, isolated subprocesses to avoid GPU-memory contention, and non-uniform sampling

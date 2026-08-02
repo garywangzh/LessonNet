@@ -13,7 +13,7 @@ LessonNet 面向课堂视频自动生成结构化知识笔记：先用多模态�
 ## 主要特性
 
 - **四层流水线**：预处理 → 多模态感知 → 数据整合（FusionNet）→ 大模型输出
-- **Video Perceptor**：SAM2.1 目标分割 + MediaPipe 姿态（手臂抬起等）+ DeepFace 情绪唤醒度 + PP-OCR 板书识别
+- **Visual Perceptor**：SAM2.1 目标分割 + MediaPipe 姿态（手臂抬起等）+ DeepFace 情绪唤醒度 + PP-OCR 板书识别
 - **Audio Perceptor**：Whisper 语音转写 + OpenSMILE eGeMAPS 声学情感 + Librosa 强调片段检测
 - **FusionNet**：时间窗口对齐 + 位置编码 + 中心 Query/上下文 KV 的时序交叉注意力评分 + 动态阈值（均值＋标准差）筛选高光片段
 - **轻量化处理**：目标区域局部推理、独立子进程隔离（避免显存竞争）、不均匀采样

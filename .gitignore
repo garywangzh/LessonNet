@@ -1,0 +1,39 @@
+# ---- Data & large media artifacts ----
+data/
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.wav
+
+# ---- Model weights (re-downloadable) ----
+checkpoints/
+model/**/*.pt
+model/sam2/checkpoints/
+model/sam2/.cache/
+model/sam2/notebooks/videos/
+model/sam2/notebooks/images/
+model/sam2/demo/frontend/public/
+
+# ---- Python environments & caches ----
+zihao_torch/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ---- Training logs ----
+runs/
+*.tfevents.*
+
+# ---- IDE / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Secrets ----
+.env
+*.key
+*.pem

@@ -1,0 +1,15 @@
+data:
+  raw_dir: "/home/featurize/work/LessonNet/Lesson_Net/data/raw/training_data/training_data"  
+  processed_dir: "/home/featurize/work/LessonNet/Lesson_Net/data/processed"
+
+processing:
+  extract_fps: 0.2  # 每5秒提取1帧，课堂视频通常不需要太高频率
+  audio_sample_rate: 16000
+
+models:
+  whisper_model: "base" # 或者 large-v3
+  sam2_checkpoint: "models/sam2/sam2_hiera_large.pt"
+  qwen_api_key: "YOUR_QWEN_API_KEY" # 暂时留空或填入
+
+output:
+  dir: "output"

@@ -1,4 +1,10 @@
-# LessonNet
+```text
+    __                               _   __     __ 
+   / /   ___  ______________  ____  / | / /__  / /_
+  / /   / _ \/ ___/ ___/ __ \/ __ \/  |/ / _ \/ __/
+ / /___/  __(__  |__  ) /_/ / / / / /|  /  __/ /_  
+/_____/\___/____/____/\____/_/ /_/_/ |_/\___/\__/  
+```
 
 An intelligent classroom note-generation system based on multimodal alignment and lightweight processing.
 
